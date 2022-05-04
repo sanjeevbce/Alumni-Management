@@ -1,0 +1,218 @@
+#footer{
+    position: relative;
+    top: 400px;
+    height:100px;
+    text-align: center;
+    padding-top: 23px;
+}
+#about-footer{
+    height:100px;
+    text-align: center;
+    padding-top: 23px;
+}
+h1{
+    padding-left: 150px;
+}
+.aboutus-navbar{
+    
+  
+    background-image: url('https://images.unsplash.com/photo-1473163928189-364b2c4e1135?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80 height600px'  );
+    
+} 
+.nav{width: 95rem;
+ margin-left: 10rem;
+    display: flex;
+    flex-direction: row;
+
+}
+.nav-right{ 
+   margin-left: 29rem;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    cursor: pointer;
+
+  
+}
+
+.nav li {
+ border: 1px solid grey;
+padding-top: 15px;
+padding-left: 8px;
+margin: 5px 2px;
+background: #000;
+   
+  
+}.nav li a{
+
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+}
+.carousel-caption{
+    margin-bottom: 100px;
+}
+.midle-img{
+    display: flex;
+}
+.h4-img{
+    position: relative;
+    left: 250px;
+}
+.p{
+    position: relative;
+    top: 80px;
+    left:-200px;
+}
+
+#carousel-bottom{
+    padding-top: 50px;
+ 
+}
+
+
+.card5{
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+}
+.card5:nth-child(odd) {
+    background-color: rgb(226, 226, 236);
+}
+.card5:nth-child(even) {
+    background-color: rgb(236, 243, 246);
+}
+.slider-container5 {
+    width: 80%;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.inner-slider5 {
+    width: 150%;
+    display: flex;
+    gap: 10px;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bot-slid{
+    position: relative;
+    top: 300px;
+   
+}
+
+.comments{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+   
+    column-gap: 30px;
+  
+}
+#aboutus-container{
+    background-color: #DFDFDE;
+}
+.Technology-list{
+    padding-left:100px;
+    padding-top: 70px;
+}
+
+
+/*BLOG */
+
+.blog-left{
+    padding-left:150px;
+    padding-top:50px;
+}
+.blog-right-text,.blog-right-icon{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+   padding-top: 0.5px;
+
+}
+.followers,.social_network{
+  height: 80px ;
+  width: 80px;
+ 
+  text-align: center;
+}
+.blog-right{
+    margin-top: 50px;
+}
+.tag-nav{
+    margin-top: 60px;
+    list-style: none;
+    
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 10px;
+    align-content: flex-start;
+}
+.tag-nav_text{
+    height: 30px;
+    width: 77px;
+    background: #000;
+  
+    text-align: center;
+}
+.tag-nav_text a{
+    color: white;
+    text-decoration: none;
+}
+.tag-nav_text:hover{
+    background: red;
+}
+.news-letter{
+    position: relative;
+    top: -270px;
+     padding-left: 30px;
+}
+.aboutus-icon{
+    margin-top: 50px;
+list-style: none;
+display: flex;
+flex-direction: column;
+row-gap: 160px;
+}
+.pagination li a button{
+    border: 1px solid #3b3b3b;
+    height: 45px;
+    width: 35px;
+
+}
+.pagination li a button:hover{
+    background: red !important ;
+}
+.map{
+   
+    text-align: center;
+    background-image: url('https://internship.suvenconsultants.com/projects/Alumni%20Management%20System_shashank/images/bg.png');
+}
+
+.contact-form form{
+display: flex;
+flex-direction: column;
+}
+
+.row-contact{
+    background-image: url('https://internship.suvenconsultants.com/projects/Alumni%20Management%20System_shashank/images/bg.png');
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.about-bottom-btn{
+    position: relative;
+    left: 680px;
+    bottom:180px;
+   
+}
